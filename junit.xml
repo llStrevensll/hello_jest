@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="11" failures="0" errors="0" time="6.657">
+  <testsuite name="testing my_plugin" errors="0" failures="0" skipped="0" timestamp="2021-06-02T12:16:03" time="0.671" tests="6">
+    <testcase classname="testing my_plugin loads the index" name="testing my_plugin loads the index" time="0.003">
+    </testcase>
+    <testcase classname="testing my_plugin defines the plugin" name="testing my_plugin defines the plugin" time="0">
+    </testcase>
+    <testcase classname="testing my_plugin attaches settings" name="testing my_plugin attaches settings" time="0.042">
+    </testcase>
+    <testcase classname="testing my_plugin changes html" name="testing my_plugin changes html" time="0.005">
+    </testcase>
+    <testcase classname="testing my_plugin uses html from settings" name="testing my_plugin uses html from settings" time="0.005">
+    </testcase>
+    <testcase classname="testing my_plugin does italic" name="testing my_plugin does italic" time="0.005">
+    </testcase>
+  </testsuite>
+  <testsuite name="headless browser tests" errors="0" failures="0" skipped="0" timestamp="2021-06-02T12:16:02" time="3.531" tests="5">
+    <testcase classname="headless browser tests gets the browser version" name="headless browser tests gets the browser version" time="0.038">
+    </testcase>
+    <testcase classname="headless browser tests gets a page object" name="headless browser tests gets a page object" time="0.114">
+    </testcase>
+    <testcase classname="headless browser tests gets a page title" name="headless browser tests gets a page title" time="0.223">
+    </testcase>
+    <testcase classname="headless browser tests calls the test function" name="headless browser tests calls the test function" time="1.128">
+    </testcase>
+    <testcase classname="headless browser tests sets the html using the plugin" name="headless browser tests sets the html using the plugin" time="1.156">
+    </testcase>
+  </testsuite>
+</testsuites>
